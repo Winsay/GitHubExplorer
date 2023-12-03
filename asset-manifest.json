@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/GitHubExplorer/static/css/main.11cf7971.css",
+    "main.js": "/GitHubExplorer/static/js/main.2b456f7f.js",
+    "static/media/bg.jpg": "/GitHubExplorer/static/media/bg.7a4c380994fae3a603fe.jpg",
+    "static/media/requestNotFound.svg": "/GitHubExplorer/static/media/requestNotFound.55d10fe6383e45753fece2f2d90421af.svg",
+    "static/media/cleanSearch.svg": "/GitHubExplorer/static/media/cleanSearch.1fc4353853567b6148250d44bb4e1278.svg",
+    "static/media/github.svg": "/GitHubExplorer/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
+    "static/media/switchPage.svg": "/GitHubExplorer/static/media/switchPage.bc6e087cf04ef69f0a58fba08a5c4f60.svg",
+    "index.html": "/GitHubExplorer/index.html",
+    "static/media/arrow.svg": "/GitHubExplorer/static/media/arrow.d6a0ea97fee389776ab74f52935a4778.svg",
+    "static/media/loading.svg": "/GitHubExplorer/static/media/loading.68af30f50257ecc1258a5a244a7c6128.svg",
+    "main.11cf7971.css.map": "/GitHubExplorer/static/css/main.11cf7971.css.map",
+    "main.2b456f7f.js.map": "/GitHubExplorer/static/js/main.2b456f7f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11cf7971.css",
+    "static/js/main.2b456f7f.js"
+  ]
+}
