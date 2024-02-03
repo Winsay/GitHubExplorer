@@ -1,0 +1,153 @@
+.userCard {
+  margin-bottom: 15px;
+  border-radius: 13px;
+  border: 2px solid #000cadd6;
+  display: flex;
+  flex-direction: column;
+}
+
+.userCard:last-child {
+  margin-bottom: 0;
+}
+
+.userCard-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #fb2f2fc2;
+}
+
+.userCard-top a {
+  text-decoration: none;
+}
+
+.userCard-top a:first-child:hover {
+  border-bottom: 2px solid #0010f3ae;
+}
+
+.userCard-top a:first-child:hover .userName {
+  color: #0010f3ae;
+}
+
+.userCard-top a:last-child:hover .userAvatar {
+  border: 2px solid rgba(6, 248, 6, 0.553);
+}
+
+.userName {
+  color: #000cadd6;
+  font-size: clamp(18px, 3.5vw, 26px);
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.userAvatar {
+  border: 2px solid #000cadd6;
+  width: clamp(45px, 10vw, 90px);
+  height: clamp(45px, 10vw, 90px);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.userAvatar img {
+  height: 100%;
+  width: 100%;
+}
+
+.userCard-bot {
+}
+
+.repositoriesBtn {
+  cursor: pointer;
+  position: relative;
+  border: 0;
+  border-top: 2px solid #000cadd6;
+  width: 100%;
+  padding: 10px 40px 10px 0;
+  border-radius: 0 0 10px 10px;
+  font-size: clamp(14px, 3vw, 18px);
+  color: #515151;
+  font-weight: 600;
+  letter-spacing: 0.13rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.repositoriesBtn:hover {
+  background-color: #cfcfcf;
+}
+
+.repositoriesBtn .reposLoading {
+  transform: translateY(-50%);
+  right: 6.5px;
+  top: 50%;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
+.arrowIco {
+  fill: #515151;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  width: clamp(10px, 5vw, 15px);
+  height: clamp(10px, 5vw, 15px);
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrowIco.openned {
+  transform: translateY(-50%) rotate(270deg);
+}
+
+.reposList {
+  min-height: 50px;
+  max-height: 200px;
+  padding: 5px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.reposList > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+@media (max-width: 600px) {
+  .reposList {
+    max-height: 150px;
+  }
+  .reposList > div {
+    font-size: 18px;
+  }
+}
+
+.reposList_item {
+  text-decoration: none;
+  border: 1px solid #ff0000;
+  background-color: #fd5151a3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: clamp(14px, 4vw, 18px);
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.reposList_item:hover {
+  background-color: #fd5151ea;
+}
+
+.reposList_item div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

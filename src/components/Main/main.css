@@ -1,0 +1,70 @@
+@import url('./SearchResult/searchResult.css');
+@import url('./History/history.css');
+@import url('../ModalHistory/modalHistory.css');
+
+.main {
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+  border-top: 3px solid #fb2f2f;
+  background-color: #e7e7e7;
+}
+
+.content > h2 {
+  margin: 0 auto;
+  align-self: center;
+  font-size: clamp(20px, 5vw, 50px);
+  font-weight: 400;
+  color: #7f7f7f;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  width: 90%;
+  flex-direction: column;
+}
+
+.notFound h2 {
+  font-size: clamp(15px, 4vw, 30px);
+  color: #6b6b6b;
+}
+
+.notFoundImgWrapp {
+  width: clamp(200px, 45vw, 350px);
+  height: clamp(200px, 45vw, 350px);
+}
+
+.notFoundImgWrapp svg {
+  margin-left: -7px;
+  width: 100%;
+  height: 100%;
+}
+
+.notFound button {
+  cursor: pointer;
+  font-size: clamp(15px, 4vw, 28px);
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 1px solid #f00;
+  color: #fff;
+  background-color: #ff000091;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.notFound button:hover {
+  background-color: #ff0000df;
+}
+
+.loadingCircle {
+  width: clamp(150px, 30vw, 250px);
+  height: clamp(150px, 30vw, 250px);
+}

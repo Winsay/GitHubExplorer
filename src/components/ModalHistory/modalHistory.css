@@ -1,0 +1,23 @@
+.modalHistory {
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2525259c;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalHistory .history {
+  max-width: 400px;
+}
+
+.modalHistory .history .history-header {
+  padding: 10px 0;
+}
+
+.modalHistory .history .history-main {
+  background-color: #bde1ff;
+}

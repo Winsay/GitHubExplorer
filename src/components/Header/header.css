@@ -1,0 +1,45 @@
+.header {
+  max-height: 150px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #9a9a9a;
+}
+
+.headerLogo {
+  width: clamp(50px, 16vw, 100px);
+  min-width: 50px;
+}
+
+.headerLogo_img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerTitle {
+  justify-self: center;
+  font-size: clamp(18px, 5vw, 44px);
+  font-weight: 600;
+}
+
+.headerTitle span {
+  color: #fff;
+}
+
+.historyBtn {
+  margin-top: 5px;
+  font-size: clamp(14px, 3.5vw, 18px);
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #5056ff;
+  background-color: #555555;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, border 0.3s ease-in;
+}
+
+.historyBtn.active {
+  border: 1px solid #ffffff;
+  background-color: #cb0202;
+}
